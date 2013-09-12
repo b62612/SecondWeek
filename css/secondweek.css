@@ -1,0 +1,48 @@
+form{background-color: #D5DDF5;
+text-transform: capitalize;
+    
+}
+ul{color: #6E5C0B}
+legend{border: }
+/*div{background-color: #7897F5;}*/
+
+body {
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    margin: 0.5;
+    padding: 0.5em;
+    
+    color: #917B19;
+    max-width: 35em;
+    border: 0.45em solid #3E4B73;
+    line-height: 1.5em;}
+#site-wrapper{background: url("/img/iphonebkg.jpg") no-repeat; height;885px;padding-top:20;}
+	#content{width: 480px; overflow: scroll;}
+fieldset{background-color: #93AAED;}	
+
+/* html elements*/
+
+
+
+
+/*
+p {
+    margin: 1.5em 0;
+}
+h1 {
+    background-color: #4D4B39;
+    color: #E1DFD3;
+    font-size: 200%;
+    padding: 0.75em;
+    margin: -0.75em -0.75em 0.75em -0.75em;*/
+}
+h2 {
+    background-color: #4D4B39;
+    color: #88a75d;
+    font-size: 150%;
+    padding: 1em;
+    margin: -1em -1em 1em -1em;
+}
+h1 + h2 {
+    margin-top: -2em;
+    padding-top: 0;
+}

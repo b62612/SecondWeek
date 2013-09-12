@@ -4,10 +4,11 @@
 		<meta charset="utf-8" />
 		<meta name="robots" content="index, follow" />
 		<meta name="viewport" content="user-scalable=yes, width=device-width"/> 
-		<link href="#" rel="stylesheet" />		
+		<link href="css/secondweek.css" rel="stylesheet" />		
 		<title>Talent Scout Assistant App</title>
    	</head>
 				<body>
+				
 	         		<h1>Players To Watch</h1>
 	         			
 	         			<fieldset> 
@@ -16,48 +17,48 @@
 								<form action="#" method="post">
              			
             						<ul> 
-            							<li id="select"><label for="category">Age Category:</label><br /></li>
+            							<li id="select"><label for="category">age category:</label><br /></li>
 										<li>
-											<label for="first-name">First Name:</label>
+											<label for="first-name">first name:</label>
 											<input type="text" id="first-name" name="first-name"/>
 										</li>
 										<li>
-											<label for="last-name">Last Name:</label>
+											<label for="last-name">last name:</label>
 											<input type="text" id="last-name" name="last-name"/>
 										</li>
 										<li>
-											<label for="email">Agent Email:</label>
+											<label for="email">agent email:</label>
 											<input type="email" id="email" name="email" placeholder:"example@yahoo.com"/>
 										</li>
 										<li>
-											<label for="phone">Agent Phone:</label>
+											<label for="phone">agent phone:</label>
 											<input type="tel" id="phone" name="phone" placeholder: "(000)000-0000" required/>
 										</li>
             							<li>
 											<label>Field Position</label>
           								</li>
          							    <p>								
-         								    <label for = "position">Forward:</label>            
-        								    <input type = "radio" id = "forward" value = "Forward" name = "position" checked/>
+         								    <label for = "position">forward:</label>            
+        								    <input type = "radio" id = "position" name = "position" checked/>
          							          
 										
-										    <label for = "position">Midfield:</label>            
-         								    <input type = "radio" id = "midfield" value = "Midfield" name = "position"/>
+										    <label for = "position">midfield:</label>            
+         								    <input type = "radio" id = "position" name = "position"/>
          								
             							
-										    <label for = "position">Defence:</label>            
-         								    <input type = "radio" id = "defence" value = "Defence" name = "position"/>
+										    <label for = "position">defence:</label>            
+         								    <input type = "radio" id = "position" name = "position"/>
          								</p>
          								<li>
-										    <label for = "urgency">Urgent:</label>            
+										    <label for = "urgency">urgent:</label>            
          								    <input type = "checkbox" id = "urgency" value="Yes" name = "urgency"/>
          								</li>
          								<li>
-										 	<label for="rating">Player Rating:</label>
+										 	<label for="rating">player rating:</label>
 											<input type="range" min="1" max="10" id= "rating" name="rating"/>
 										</li>
 										<li> 
-											<label for="date">Observation Date:</label>
+											<label for="date">Observation date:</label>
 											<input type="date" min="2013-01-01" max="2018-01-01" 
 											id="date" name="date" required aria-required="true" />
 										</li>
@@ -66,11 +67,10 @@
 											<input type="textarea" min="1" max="10" id = "notes" name="notes"/>
 										</li>
 									</ul>
-								</form>
             			</fieldset>	
-            							
+            						
 					
-					<input type="button" id="submit" value="submit"/>
+					<input type="submit" id="submit" value="Submit"/>
 					
 					<footer> 
 					<a href="#" id="clearAll">Clear Data</a>&nbsp;<a href="#" id="showAll">Display Data</a>
