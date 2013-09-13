@@ -2,13 +2,25 @@
  	VFW 1309
  	Web App Part 2 (Project 2)
 	Talent Scout Assistant App */
-
-form{background-color: #D5DDF5;
+	
+fieldset{background-color: #9AA2F5;}	
+h1{color: #634E0C;}
+form{background-color: #E3E5FA;
 text-transform: capitalize;
-    
+    }
+label{
+	
+	width: auto;
+	margin: 2px 1ex 0 0;
+	
 }
-ul{color: #6E5C0B}
-legend{border: }
+legend{font-weight: bold;}
+p{font-style: italic;
+	font-variant: small-caps;}
+
+
+ul{color: #000000;}
+
 /*div{background-color: #7897F5;}*/
 
 body {
@@ -16,38 +28,7 @@ body {
     margin: 0.5;
     padding: 0.5em;
     
-    color: #917B19;
+    
     max-width: 35em;
     border: 0.45em solid #3E4B73;
     line-height: 1.5em;}
-#site-wrapper{background: url("/img/iphonebkg.jpg") no-repeat; height;885px;padding-top:20;}
-	#content{width: 480px; overflow: scroll;}
-fieldset{background-color: #93AAED;}	
-
-/* html elements*/
-
-
-
-
-/*
-p {
-    margin: 1.5em 0;
-}
-h1 {
-    background-color: #4D4B39;
-    color: #E1DFD3;
-    font-size: 200%;
-    padding: 0.75em;
-    margin: -0.75em -0.75em 0.75em -0.75em;*/
-}
-h2 {
-    background-color: #4D4B39;
-    color: #88a75d;
-    font-size: 150%;
-    padding: 1em;
-    margin: -1em -1em 1em -1em;
-}
-h1 + h2 {
-    margin-top: -2em;
-    padding-top: 0;
-}
