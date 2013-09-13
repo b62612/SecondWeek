@@ -1,3 +1,8 @@
+/*  Ejiroghene Efevberha
+ 	VFW 1309
+ 	Web App Part 2 (Project 2)
+	Talent Scout Assistant App */
+
 window.addEventListener("DOMContentLoaded", function(){
 localStorage.key(0);
 
